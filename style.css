@@ -1,0 +1,60 @@
+.project {
+    width: 18%;
+    height: 40%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    position: absolute;
+}
+#bobsadventures {
+    margin-left: 40%;
+}
+#p2 {
+    margin-left: 20%;
+}
+#p3 {
+    margin-left: 60%;
+}
+#p4 {
+    margin-left: 80%;
+}
+#p5 {
+    margin-left: 0%;
+}
+#p6 {
+    margin-top: 20%;
+}
+.project:hover {
+    zoom: 1.2;
+}
+.bobpar {
+    text-align: center;
+}
+
+.header {
+    border: solid;
+    display: flex;
+    justify-content: center;
+    background-color: lightslategrey;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1820px;
+}
+
+.block {
+    text-decoration: none;
+    font-size: 30pt;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    border-color: black;
+}
+
+.block:hover {
+    background-color: rgb(92, 106, 119);
+}
